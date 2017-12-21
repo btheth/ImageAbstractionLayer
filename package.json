@@ -1,0 +1,26 @@
+{
+  "name": "imagesearch",
+  "version": "1.0.0",
+  "description": "image abstraction layer for freecodecamp",
+  "main": "server.js",
+  "scripts": {
+    "test": "test",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/btheth/ImageAbstractionLayer.git"
+  },
+  "author": "btheth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/btheth/ImageAbstractionLayer/issues"
+  },
+  "homepage": "https://github.com/btheth/ImageAbstractionLayer#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "morgan": "^1.9.0",
+    "request": "^2.81.0"
+  }
+}
